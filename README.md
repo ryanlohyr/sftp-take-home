@@ -14,6 +14,7 @@
     ```bash
     npm run dev
     ```
+The demo will be viewable at `http:localhost:3000/demo`
 
 ### Setting up Backend
 
