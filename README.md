@@ -1,8 +1,8 @@
 # sftp-take-home
 ### Setting up Frontend
-1. **Navigate to Frontend Directory:**
+1. **Navigate to Frontend folder**
     ```bash
-    cd sftp-take-home/frontend
+    cd frontend
     ```
 
 2. **Install Dependencies:**
@@ -16,12 +16,17 @@
     ```
 
 ### Setting up Backend
-1. **Create a Virtual Environment:**
+
+1. **Navigate into Backend folder**
+    ```bash
+    cd backend
+    ```
+3. **Create a Virtual Environment:**
     ```bash
     python3 -m venv venv
     ```
 
-2. **Activate the Virtual Environment:**
+4. **Activate the Virtual Environment:**
     - **On Linux/Mac:**
         ```bash
         source venv/bin/activate
@@ -31,17 +36,17 @@
         venv\Scripts\activate
         ```
 
-3. **Install Python Dependencies:**
+5. **Install Python Dependencies:**
     ```bash
     pip3 install -r requirements.txt
     ```
 
-4. **Make start.sh Executable:**
+6. **Make start.sh Executable:**
     ```bash
     chmod +x start.sh
     ```
 
-5. **Run the Application:**
+7. **Run the Application:**
     ```bash
     ./start.sh
     ```
